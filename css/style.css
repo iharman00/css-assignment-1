@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+html {
+  background-color: #1f1f1f;
+  color: #eaeaea;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Layout Classes */
+
+.container {
+  max-width: 920px;
+  margin: auto;
+}
+
+.section {
+  margin-top: 4rem;
+  max-width: 800px;
+}
+
+/* Typography classes*/
+
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 200%;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+}
+
+.body-text {
+  color: #acacac;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+}
+
+/* Header */
+.header {
+  text-align: center;
+}
+
+.header__logo {
+  font-size: 3rem;
+  color: #e35c44;
+}
+
+/* Lyrics Section */
+
+.lyrics__image-container {
+  display: flex;
+  gap: 4rem;
+}
+
+.lyrics__lyrics {
+  font-size: 1.3rem;
+  line-height: 170%;
+}
+
+/* About Song section */
+
+.about-song__content {
+  margin-top: 2rem;
+}
+
+/* Footer */
+.footer {
+  padding: 2rem 0 3rem;
+}
